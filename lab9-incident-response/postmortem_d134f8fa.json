@@ -1,0 +1,42 @@
+{
+  "incident_id": "d134f8fa",
+  "title": "Post-Mortem: Manual test incident",
+  "date": "2025-07-24",
+  "summary": {
+    "incident_title": "Manual test incident",
+    "severity": "critical",
+    "duration": "0:15:09.011298",
+    "services_affected": [],
+    "user_impact": "High - outage or severe degradation"
+  },
+  "timeline": [
+    {
+      "time": "2025-07-24T01:01:59.152185",
+      "event": "Incident created",
+      "details": "Alert received: Manual test incident",
+      "user": "system"
+    },
+    {
+      "time": "2025-07-24T01:17:08.163463",
+      "event": "status updated",
+      "details": "Changed from \"open\" to \"investigating\"",
+      "user": "system"
+    }
+  ],
+  "root_cause": {
+    "primary_cause": "Pending analysis",
+    "contributing_factors": [
+      "High urgency"
+    ]
+  },
+  "resolution": {
+    "immediate_actions": [],
+    "resolution_method": null
+  },
+  "lessons_learned": {
+    "what_went_well": [],
+    "what_could_be_improved": [],
+    "action_items": []
+  },
+  "follow_up_actions": []
+}
